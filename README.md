@@ -97,3 +97,42 @@ object detection
 medical imaging
 manufacturing defect detection
 facial recognition systems
+
+
+## Task 7: Business Use Case Mapping
+Manufacturing Quality Inspection
+
+This computer vision solution can be used in the manufacturing industry for automatic quality inspection of products.
+
+In factories, products may contain defects such as:
+
+scratches
+dents
+stains
+surface damage
+
+Traditionally, workers manually inspect products, which can be:
+
+time consuming
+expensive
+less accurate for large-scale production
+
+Using CNN-based image classification, cameras can capture product images and automatically detect defective products in real time.
+
+Benefits of this solution:
+
+faster inspection process
+reduced human effort
+improved product quality
+reduced manufacturing defects
+increased production efficiency
+
+For example, this type of system can be used in:
+
+automobile manufacturing
+electronics production
+mobile phone assembly
+metal surface inspection
+packaging industries
+
+This shows how computer vision and CNN models can help industries improve automation and quality control processes.
