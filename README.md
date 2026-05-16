@@ -28,3 +28,72 @@ and classify the images into the correct category.
 
 This type of problem is commonly used in manufacturing quality inspection systems to automatically detect defective products.
 
+## Task 6: CNN Concept Explanation
+What is Convolution?
+
+Convolution is a process where a small filter moves over the image to detect important features like:
+
+edges
+lines
+textures
+patterns
+
+In CNN, convolution layers help the model learn visual features from images automatically.
+
+For example:
+
+scratches
+dents
+stains
+
+can be detected using convolution filters.
+
+Why is Pooling Used?
+
+Pooling is used to reduce the size of feature maps.
+
+It helps:
+
+reduce computation
+reduce memory usage
+make the model faster
+avoid overfitting
+
+The most common pooling method is Max Pooling, which keeps the most important feature values from small regions of the image.
+
+Why is ReLU Commonly Used in CNNs?
+
+ReLU stands for Rectified Linear Unit.
+
+It is an activation function defined as:
+
+f(x)=max(0,x)
+
+ReLU converts negative values to 0 and keeps positive values unchanged.
+
+It is commonly used because:
+
+it is simple and fast
+helps the model learn better
+reduces vanishing gradient problem
+improves training speed
+Why are CNNs Better than Regular Feed-Forward Networks for Image Data?
+
+CNNs are specially designed for image processing.
+
+Compared to regular feed-forward neural networks, CNNs:
+
+automatically detect important image features
+require fewer parameters
+preserve spatial relationships in images
+perform better for image classification tasks
+
+Regular feed-forward networks treat images as simple flat data, while CNNs can understand visual patterns and structures more effectively.
+
+That is why CNNs are widely used in:
+
+image classification
+object detection
+medical imaging
+manufacturing defect detection
+facial recognition systems
