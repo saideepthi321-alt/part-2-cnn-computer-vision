@@ -106,16 +106,15 @@ This computer vision solution can be used in the manufacturing industry for auto
 
 In factories, products may contain defects such as:
 
-scratches
-dents
-stains
-surface damage
+  scratches
+  dents
+  stains
+  surface damage
 
 Traditionally, workers manually inspect products, which can be:
-
-time consuming
-expensive
-less accurate for large-scale production
+  time consuming
+  expensive
+  less accurate for large-scale production
 
 Using CNN-based image classification, cameras can capture product images and automatically detect defective products in real time.
 
