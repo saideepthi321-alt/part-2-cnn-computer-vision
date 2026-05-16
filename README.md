@@ -27,6 +27,58 @@ and classify the images into the correct category.
 
 This type of problem is commonly used in manufacturing quality inspection systems to automatically detect defective products.
 
+## Task 2: Dataset Exploration
+The dataset contains four classes:
+- normal
+- scratch
+- dent
+- stain
+
+Dataset exploration was performed to analyze:
+- number of images per class
+- sample images
+- image dimensions
+- class balance
+
+Sample images and class distribution plots were generated in the notebook.
+
+## Task 3: Image Preprocessing
+The images were preprocessed before training the CNN model.
+
+Preprocessing steps included:
+- resizing images to 128x128
+- normalization of pixel values
+- train-test split
+- data augmentation
+
+These preprocessing steps help improve model performance and training stability.
+
+## Task 4: CNN Model Creation
+A CNN model was built using TensorFlow/Keras.
+
+The model architecture includes:
+- convolution layers
+- ReLU activation
+- max pooling layers
+- flatten layer
+- dense layers
+- softmax output layer
+
+The CNN model learns image features automatically for defect classification.
+
+## Task 5: Model Training and Evaluation
+The CNN model was trained on the manufacturing defect dataset.
+
+Model evaluation included:
+- training accuracy
+- validation accuracy
+- training loss
+- validation loss
+- confusion matrix
+- sample predictions
+
+The model successfully classified product surface defects into different categories.
+
 ## Task 6: CNN Concept Explanation
 What is Convolution?
 
